@@ -1,0 +1,38 @@
+# macOS
+.DS_Store
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+auth.json
+
+# WordPress production files
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/plugins/
+
+# Sensitive backups and exports
+*.sql
+*.sql.gz
+*.bak
+*.zip
+*.tar.gz
+backups/
+secrets/
+
+# Temporary files
+*.log
+*.tmp
+node_modules/
+coverage/
+
+# Local editor configuration
+.vscode/
+.idea/
